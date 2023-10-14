@@ -1,0 +1,43 @@
+.taskQuantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-weight: bold;
+  gap: 10rem;
+}
+
+.taskQuantity span {
+  display: flex;
+  align-items: center;
+}
+
+.taskQuantity .taskCreated span {
+  margin-left: 0.5rem;
+}
+
+.taskQuantity .taskCompleted span {
+  margin-left: 0.5rem;
+}
+
+.taskCreated {
+  color: var(--blue);
+}
+
+.taskCompleted {
+  color: var(--purple);
+}
+
+.numberTaskCreated {
+  background: var(--gray-400);
+  border-radius: 50%;
+  color: var(--white);
+  padding: 0.2rem 0.5rem;
+}
+
+.numberTaskCompleted {
+  background: var(--gray-400);
+  border-radius: 15px;
+  color: var(--white);
+  padding: 0.2rem 0.5rem;
+}

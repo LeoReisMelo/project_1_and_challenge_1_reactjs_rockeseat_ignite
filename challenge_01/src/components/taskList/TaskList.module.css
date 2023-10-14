@@ -1,0 +1,59 @@
+.task {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.taskBox {
+  flex: 1;
+}
+
+.taskContent {
+  background: var(--gray-500);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.taskContent span {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-top: calc(0px - 0.8rem - 6px);
+}
+
+.trashButton {
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+  display: block;
+}
+
+.trashButton:hover {
+  color: var(--red-500);
+}
+
+.circleButton {
+  background: transparent;
+  border: 0;
+  color: var(--blue);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+  display: block;
+}
+
+.circleButton:hover {
+  color: var(--blueDark);
+}
+
+.completed {
+  text-decoration: line-through;
+}
